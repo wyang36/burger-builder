@@ -17,3 +17,23 @@
     height: 100%;
 
 }
+
+
+.Logo {
+    height: 80%;
+}
+
+.SideDrawerLogo {
+    height: 80%;
+    display: none;
+}
+
+@media (max-width: 499px) {
+    .DesktopOnly {
+        display: none;
+    }
+
+    .SideDrawerLogo {
+        display: flex;
+    }
+}
